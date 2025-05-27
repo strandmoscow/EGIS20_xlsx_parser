@@ -1,0 +1,6 @@
+pandas~=2.2.2
+sqlalchemy~=2.0.40
+atlassian~=0.0.0
+openpyxl~=3.2.0b1
+telegram~=0.0.1
+psycopg2~=2.9.10

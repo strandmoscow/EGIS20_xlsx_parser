@@ -1,9 +1,3 @@
-Спасибо за ссылку на репозиторий: [https://github.com/strandmoscow/EGIS20_xlsx_parser](https://github.com/strandmoscow/EGIS20_xlsx_parser).
-
-Ниже приведён пример базовой документации (README.md) для вашего проекта. Она включает описание назначения, структуры, основных скриптов и примеры запуска.
-
----
-
 # EGIS20_xlsx_parser
 
 **EGIS20_xlsx_parser** — это система для парсинга Excel-отчетов по требованиям ЕГИС, наполнения базы данных и формирования новых отчетов, а также интеграции с Confluence.
@@ -160,13 +154,3 @@ python tg_bot.py
 
 Автор: strandmoscow  
 GitHub: [https://github.com/strandmoscow/EGIS20_xlsx_parser](https://github.com/strandmoscow/EGIS20_xlsx_parser)
-
----
-
-**Если нужна более подробная документация по каждому модулю или функции, пришлите, пожалуйста, интересующие вас части кода или уточните задачи — я подготовлю расширенное описание и примеры использования.**
-
-Citations:
-[1] https://github.com/strandmoscow/EGIS20_xlsx_parser
-
----
-Answer from Perplexity: pplx.ai/share

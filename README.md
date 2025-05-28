@@ -40,6 +40,8 @@ EGIS20_xlsx_parser/
 ├── tg_bot.py                 # Telegram-бот для управления процессом
 ├── utils.py                  # Вспомогательные функции (работа с БД, конфигами и т.д.)
 ├── requirements.txt          # Список зависимостей
+├── creds-example/            # Директория с примерами cred файлов
+├── creds/                    # Директория с cred файлами (**необходимо создать самому и добавить файлы**)
 └── .idea/                    # Конфигурация среды разработки (PyCharm)
 ```
 
@@ -58,7 +60,7 @@ EGIS20_xlsx_parser/
    pip install -r requirements.txt
    ```
 
-3. Настройте параметры подключения к базе данных и Confluence в конфигурационных файлах или переменных окружения (см. [пример](#пример-конфига)).
+3. Настройте параметры подключения к базе данных в конфигурационных файлах или переменных окружения (см. [пример](https://github.com/strandmoscow/EGIS20_xlsx_parser/blob/master/creds_example/db_cred.csv)).
 
 ---
 
@@ -120,16 +122,9 @@ python tg_bot.py
 
 ## Интеграция с Confluence
 
-Для загрузки отчетов в Confluence используются REST API и токены Atlassian.  
-Рекомендуется хранить креденшелы в отдельном файле (`confluence_creds.json`):
+Для загрузки отчетов в Confluence используется библиотека Atlassian python.
+Для корректной интеграции необходимо добавить в директорию creds конфигурационный файл кредентами конфлюенс (см. [пример](https://github.com/strandmoscow/EGIS20_xlsx_parser/blob/master/creds_example/conf_cred.csv)).
 
-```json
-{
-  "url": "https://your-domain.atlassian.net/wiki",
-  "username": "your-email@example.com",
-  "api_token": "your-api-token"
-}
-```
 
 ---
 
@@ -139,6 +134,8 @@ python tg_bot.py
 - Запускать парсинг и генерацию отчетов по команде.
 - Получать статус выполнения задач.
 - Получать уведомления о завершении процессов.
+
+Для корректной работы бота необходимо добавить в директорию creds конфигурационный файл с ключом бота (см. [пример](https://github.com/strandmoscow/EGIS20_xlsx_parser/blob/master/creds_example/api_key.csv)).
 
 ---
 

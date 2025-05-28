@@ -60,7 +60,7 @@ EGIS20_xlsx_parser/
    pip install -r requirements.txt
    ```
 
-3. Настройте параметры подключения к базе данных в конфигурационных файлах или переменных окружения (см. [пример](https://github.com/strandmoscow/EGIS20_xlsx_parser/blob/master/creds_example/db_cred.csv)).
+3. Настройте параметры подключения к базе данных в конфигурационных файлах (см. [пример](https://github.com/strandmoscow/EGIS20_xlsx_parser/blob/master/creds_example/db_cred.csv)).
 
 ---
 
